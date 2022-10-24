@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb058435-0dcb-428b-a79b-ced14b2a460e" name="Changes" comment="" />
+    <list default="true" id="a5e6d616-0a17-484c-b012-6e533c33b5bb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -20,28 +21,26 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FP7k6Kt2wQgfjQWiKxYR3hrKm3" />
+  <component name="ProjectId" id="2GTEY35xL7Oru0UM22EZKWGcLUW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/estab/Desktop/free-version-file-transfer-web-app-nodejs-mongodb",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.week2Odev.inheritanceDemo.Main">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.Main" />
-      <module name="Java Week 2" />
+      <option name="MAIN_CLASS_NAME" value="odev2.staticDemo.Main" />
+      <module name="Java Week 3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop1.*" />
+          <option name="PATTERN" value="odev2.staticDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,12 +48,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2Odev.Methods2" />
-      <module name="Java Week 2" />
+    <configuration name="odev2.abstractClasses.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odev2.abstractClasses.Main" />
+      <module name="Java Week 3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2Odev.*" />
+          <option name="PATTERN" value="odev2.abstractClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week2Odev.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2Odev.Main" />
-      <module name="Java Week 2" />
+    <configuration name="odev2.abstractDemo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odev2.abstractDemo.Main" />
+      <module name="Java Week 3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2Odev.*" />
+          <option name="PATTERN" value="odev2.abstractDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week2Odev.inheritanceDemo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2Odev.inheritanceDemo.Main" />
-      <module name="Java Week 2" />
+    <configuration name="odev2.interfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odev2.interfaces.Main" />
+      <module name="Java Week 3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2Odev.inheritanceDemo.*" />
+          <option name="PATTERN" value="odev2.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week2Odev.methodOverloading.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2Odev.methodOverloading.Main" />
-      <module name="Java Week 2" />
+    <configuration name="odev2.overriding.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="odev2.overriding.Main" />
+      <module name="Java Week 3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2Odev.methodOverloading.*" />
+          <option name="PATTERN" value="odev2.overriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,32 +102,38 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.week2Odev.inheritanceDemo.Main" />
-        <item itemvalue="Application.week2Odev.methodOverloading.Main" />
-        <item itemvalue="Application.week2Odev.Main" />
-        <item itemvalue="Application.Methods2" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.odev2.interfaces.Main" />
+        <item itemvalue="Application.odev2.abstractDemo.Main" />
+        <item itemvalue="Application.odev2.abstractClasses.Main" />
+        <item itemvalue="Application.odev2.overriding.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fb058435-0dcb-428b-a79b-ced14b2a460e" name="Changes" comment="" />
-      <created>1664382009745</created>
+      <changelist id="a5e6d616-0a17-484c-b012-6e533c33b5bb" name="Changes" comment="" />
+      <created>1666404221986</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664382009745</updated>
-      <workItem from="1664382011957" duration="27000" />
-      <workItem from="1664382057841" duration="8385000" />
-      <workItem from="1664412801716" duration="4512000" />
-      <workItem from="1664833571773" duration="883000" />
-      <workItem from="1664987715529" duration="3358000" />
-      <workItem from="1665408304451" duration="23000" />
+      <updated>1666404221986</updated>
+      <workItem from="1666404223369" duration="7071000" />
+      <workItem from="1666610972940" duration="12110000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
