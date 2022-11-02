@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e6d616-0a17-484c-b012-6e533c33b5bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/odev3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/business/CategoryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/business/CourseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/business/InstructorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/dataAccess/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/dataAccess/CourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/dataAccess/HibernateCategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/dataAccess/HibernateCourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/dataAccess/HibernateInstructorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/dataAccess/InstructorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/dataAccess/JdbcCategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/dataAccess/JdbcCourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/dataAccess/JdbcInstructorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/entities/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/entities/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/entities/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/logging/DataBaseLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/logging/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/logging/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odev3/logging/MailLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/odev3/logging/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/odev3/logging/Logger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/estab/Documents/GitHub/JavaBootCamp22/Java Week 3"
+    "last_opened_file_path": "C:/Users/estab/Desktop/camSpring/rentACarProject"
   }
 }]]></component>
   <component name="RunManager" selected="Application.odev3.Main">
@@ -148,7 +128,9 @@
       <workItem from="1666610972940" duration="12698000" />
       <workItem from="1666632641055" duration="596000" />
       <workItem from="1666801365490" duration="50000" />
-      <workItem from="1666813822595" duration="5840000" />
+      <workItem from="1666813822595" duration="7403000" />
+      <workItem from="1666876161912" duration="2398000" />
+      <workItem from="1667386458665" duration="430000" />
     </task>
     <servers />
   </component>
