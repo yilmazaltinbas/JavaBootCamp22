@@ -1,56 +1,63 @@
 package kodlama.io.Devs.business.concretes;
 
 import kodlama.io.Devs.business.abtracts.LanguageService;
+import kodlama.io.Devs.business.request.languageRequests.CreateLanguageRequest;
+import kodlama.io.Devs.business.request.languageRequests.DeleteLanguageRequest;
+import kodlama.io.Devs.business.request.languageRequests.UpdateLanguageRequest;
+import kodlama.io.Devs.business.responses.languageResponses.GetAllLanguageResponse;
+import kodlama.io.Devs.business.responses.languageResponses.GetByIdLanguageResponse;
 import kodlama.io.Devs.dataAccess.abstracts.LanguageRepository;
 import kodlama.io.Devs.entities.concretes.Language;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
+
+
 @Service
 public class LanguageManager implements LanguageService {
 
-    private LanguageRepository languageRepository; // veritabanını kullanacağımız için oluşturduk.
+    private LanguageRepository languageRepository;
 
     public LanguageManager(LanguageRepository languageRepository) {
         this.languageRepository = languageRepository;
     }
 
     @Override
-    public List<Language> getAll() {
-        return languageRepository.getAll(); // InMemory veritabanımızı return yaptık.
-    }
+    public List<GetAllLanguageResponse> getAll() {
+        List<Language> Languages = LanguageRepository.findAll();
+        List<GetAllPLanguageResponse> programmingLanguageResponses = new ArrayList<>();
 
-    @Override
-    public Language getById(int id) throws Exception {
-        return languageRepository.getById(id);
-    }
+        for(ProgrammingLanguage programmingLanguage : programmingLanguages){
+            GetAllProgrammingLanguageResponse response = new GetAllProgrammingLanguageResponse();
+            response.setName(programmingLanguage.getName());
 
-    @Override
-    public void create(Language language) throws Exception {
-        if(language.getName().isEmpty()){
-            throw new Exception("Programlama dili ismi boş bırakılamaz");
+            programmingLanguageResponses.add(response);
         }
 
-        for(Language language1 : getAll()){
-            if(language1.getId() == language.getId()){
-                throw new Exception("Programlama isimleri tekrar edemez");
-            }
-        }
-        languageRepository.create(language);
+        return programmingLanguageResponses;
+
 
     }
 
     @Override
-    public void update(Language language, int id) throws Exception {
-        if(languageRepository.getById(id)==null){
-            throw new Exception("Bu programlama dili mevcut değil");
-        }
-        languageRepository.update(language,id);
+    public GetByIdLanguageResponse getById(int id) {
+        return null;
     }
 
     @Override
-    public void delete(int id) throws Exception {
-        languageRepository.delete(id);
+    public void save(CreateLanguageRequest createLanguageRequest) {
+
     }
 
+    @Override
+    public void delete(DeleteLanguageRequest deleteLanguageRequest) {
+
+    }
+
+    @Override
+    public void update(UpdateLanguageRequest updateLanguageRequest) {
+
+    }
 }

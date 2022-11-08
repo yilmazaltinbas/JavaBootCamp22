@@ -1,30 +1,32 @@
 package kodlama.io.Devs.entities.concretes;
 
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
+import java.util.List;
+
+@Table(name = "languages")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+
 public class Language {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // veritabanında int id tanımlamasının primary key olduğunu belirttik
+    @Column(name="id")
     private int id;
+
+    @Column(name="language_name")
     private String name;
 
-    public Language() {
-    }
+    @OneToMany(mappedBy = "language")
+    private List<LanguageTechnology> technologies;
 
-    public Language(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }
